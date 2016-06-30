@@ -1,0 +1,22 @@
+{
+    "name": "theme-afterglow",
+    "displayName": "AfterGlow",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "Alexander Kleinen",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Afterglow",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Afterglow.tmTheme"
+            }
+        ]
+    }
+}
