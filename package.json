@@ -2,7 +2,7 @@
     "name": "theme-afterglow",
     "displayName": "AfterGlow",
     "description": "",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "Alexander Kleinen",
     "engines": {
         "vscode": "^1.0.0"

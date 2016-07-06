@@ -14,14 +14,25 @@
         <key>caret</key>
         <string>#FFFFFF</string>
         <key>foreground</key>
-<!--         <string>#E6E1DC</string>
- -->        <string>#d6d6d6</string>
+        <string>#d6d6d6</string>
         <key>invisibles</key>
         <string>#404040</string>
         <key>lineHighlight</key>
         <string>#333435</string>
         <key>selection</key>
         <string>#5A647E</string>
+        <key>guide</key>
+        <string>#37474F80</string>
+        <key>activeGuide</key>
+        <string>#80CBC470</string>
+        <key>stackGuide</key>
+        <string>#37474Fff</string>
+        <key>gutterForeground</key>
+        <string>#37474F</string>
+        <key>findHighlight</key>
+        <string>#F8E71C</string>
+        <key>shadow</key>
+        <string>#00000010</string>
       </dict>
     </dict>
     <dict>
@@ -59,6 +70,17 @@
         <string></string>
         <key>foreground</key>
         <string>#CC7833</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Variables</string>
+      <key>scope</key>
+      <string>variable</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#D0D0FF</string>
       </dict>
     </dict>
     <dict>
@@ -248,6 +270,82 @@
         <string>#a1617a</string>
       </dict>
     </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Escape Characters</string>
+      <key>scope</key>
+      <string>constant.character.escape</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#80CBC4</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Embedded</string>
+      <key>scope</key>
+      <string>punctuation.section.embedded, variable.interpolation</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#d3423eff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Illegal</string>
+      <key>scope</key>
+      <string>invalid.illegal</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#EC5F67</string>
+        <key>foreground</key>
+        <string>#ffffffff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Broken</string>
+      <key>scope</key>
+      <string>invalid.broken</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#F77669</string>
+        <key>foreground</key>
+        <string>#020e14ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Deprecated</string>
+      <key>scope</key>
+      <string>invalid.deprecated</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#d3423eff</string>
+        <key>foreground</key>
+        <string>#ffffffff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Unimplemented</string>
+      <key>scope</key>
+      <string>invalid.unimplemented</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#8BD649</string>
+        <key>foreground</key>
+        <string>#ffffffff</string>
+      </dict>
+    </dict>
+
     <dict>
       <key>name</key>
       <string>Diff Add</string>
@@ -466,6 +564,54 @@
             <key>foreground</key>
             <string>#FFFFFF</string>
         </dict>
+    </dict>
+
+<!-- JavaScript special variables -->
+    <dict>
+      <key>name</key>
+      <string>This</string>
+      <key>scope</key>
+      <string>variable.language.this.js, variable.language.arguments.js, variable.language.super.js, variable.language.proto.js, variable.language.constructor.js, variable.language.prototype.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ff6380</string>
+      </dict>
+    </dict>
+    <!-- ES6 module keywords -->
+    <dict>
+      <key>name</key>
+      <string>keyword.operator.module.js</string>
+      <key>scope</key>
+      <string>keyword.operator.module.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#c792eaff</string>
+      </dict>
+    </dict>
+    <!-- ES6 methods/accessors -->
+    <dict>
+      <key>name</key>
+      <string>entity.name.method.js</string>
+      <key>scope</key>
+      <string>entity.name.method.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#82B1FF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>entity.name.accessor.js</string>
+      <key>scope</key>
+      <string>entity.name.accessor.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#82B1FF</string>
+      </dict>
     </dict>
   </array>
   <key>uuid</key>
